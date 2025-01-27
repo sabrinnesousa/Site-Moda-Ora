@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+:root{
+    --cor01: #162028;
+    --cor02: #425564;
+    --cor03:#555;
+    --cor04:#003d52;
+    --cor05:#0b171f;
+    --cor06:#6f8597;
+    --font01:"Italiana", serif;
+    --font02:"Roboto", serif;
+}
+
+body, html{
+    width: 100%;
+    height: auto;
+    font-family: var(--font02);
+    color: var(--cor03);
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: var(--cor01);
+}
+
+header img{
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+header nav h1{
+    font-family: var(--font01);
+    color: #ffffff;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+header nav ul li{
+    font-family: var(--font02);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--cor02);
+    margin: 20px;
+}
+
+header nav ul li a :hover {
+    text-decoration: underline;
+}
+
+.infoequip{
+    padding: 30px;
+}
+.infoequip h2{
+    padding: 16px;
+    font-family: var(--font01);
+    font-size: 2em;
+    text-align: center;
+}
+
+.infoequip p{
+    padding: 16px;
+    font-family: var(--font02);
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+
+.modelos ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 16px;
+    padding: 16px;
+}
+
+.modelos ul li {
+    list-style-type: none;
+}
+
+.modelos p {
+    padding: 10px;
+    font-family: var(--font02);
+    text-align: center;
+}
+
+.infodetalhes{
+    background-color: #003d52;
+    background-image: url(../image/bg_detalhe.png);
+    width: 100%;
+    padding: 10px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.infodetalhes h2{
+    padding: 20px;
+    color: #ffffff;
+    font-family: var(--font01);
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: left;
+}
+
+.infodetalhes p{
+    padding: 20px;
+    color: #ffffff;
+    font-family: var(--font02);
+    font-size: 1em;
+    text-align: left;
+    line-height: 2em;
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    color: var(--cor02);
+    text-align: center;
+    background-color: var(--cor01);
+    letter-spacing: 3px;
+}
