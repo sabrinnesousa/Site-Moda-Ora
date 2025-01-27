@@ -15,5 +15,10 @@ O **Site Moda Ora** foi criado com foco na prática e no aprofundamento dos fund
 - **CSS**: Para estilização e design do site.  
 
 ---
+### Captura de Tela da Interface Inicial
+
+![Captura de tela da página inicial](https://github.com/sabrinnesousa/Site-Moda-Ora/blob/main/Projeto-Final.png)
+
+---
 
 Este projeto é uma etapa importante na minha jornada de aprendizado em desenvolvimento front-end. Feedbacks e sugestões são sempre bem-vindos!
